@@ -103,14 +103,14 @@ export const userAdminUid = isLocal ? local.userAdminUid : getCfg('USER_ADMIN_UI
 export const fireBase = isLocal
     ? local.fireBase
     : {
-          apiKey: getCfg('FIREBASE_APIKEY') || 'AIzaSyD8tzIdGqx18PHSBqfOZ258FCch5Xk8y38',
-          authDomain: getCfg('FIREBASE_AUTHDOMAIN') || 'node-red-home-automation-82192.firebaseapp.com',
+          apiKey: getCfg('FIREBASE_APIKEY') || 'AIzaSyB9VqlJNvupkx4NIYmyxYZu6-ZQkBC89o8',
+          authDomain: getCfg('FIREBASE_AUTHDOMAIN') || 'lgr-smarthome.firebaseapp.com',
           // tslint:disable-next-line:max-line-length
-          databaseURL: getCfg('FIREBASE_DATABASEURL') || 'https://node-red-home-automation-82192.firebaseio.com',
-          projectId: getCfg('FIREBASE_PROJECID') || 'node-red-home-automation-82192',
+          databaseURL: getCfg('FIREBASE_DATABASEURL') || 'https://lgr-smarthome.firebaseio.com',
+          projectId: getCfg('FIREBASE_PROJECID') || 'lgr-smarthome',
           // tslint:disable-next-line:max-line-length
-          storageBucket: getCfg('FIREBASE_STORAGEBUCKET') || 'node-red-home-automation-82192.appspot.com',
-          messagingSenderId: getCfg('FIREBASE_MESSAGINGSENDERID') || '350438145283',
+          storageBucket: getCfg('FIREBASE_STORAGEBUCKET') || 'lgr-smarthome.appspot.com',
+          messagingSenderId: getCfg('FIREBASE_MESSAGINGSENDERID') || '1023235413529',
           remoteInitUrl: getCfg('FIREBASE_REMOTEINITURL') || '/login/init.js'
       };
 
